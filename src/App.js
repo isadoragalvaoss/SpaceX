@@ -16,11 +16,11 @@ class App extends Component {
       .then(launches => this.setState({launches : launches}))
   }
 
-  render(){ 
+  render(){  
   return (
     <div className="App">
       {this.state.launches.map((lauch)=>(
-        <h1>{lauch.name}</h1>
+        <h1 key={lauch.id}>{lauch.name}</h1>
       ))}
     </div>
   );
