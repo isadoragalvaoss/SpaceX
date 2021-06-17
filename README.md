@@ -13,14 +13,9 @@ Acesse [http://localhost:3000](http://localhost:3000) para ver o projeto.
 
 ## Informações obtidas pela API
 
-# Informações da empresa
-
-# Todos os lançamentos
-
-# Próximo lançamento
-
-# Último lançamento
-
-# Próximos lançamentos
-
-# Últimos lançamentos
+- Informações da empresa
+- Todos os lançamentos
+- Próximo lançamento
+- Último lançamento
+- Próximos lançamentos
+- Últimos lançamentos
