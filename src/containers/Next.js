@@ -1,9 +1,10 @@
+import { CardOne } from "../components/CardOne";
 
 function Next(){
   
 
     return (
-      <div>Next</div>
+      <CardOne />
     );
   }
   
