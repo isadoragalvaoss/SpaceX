@@ -16,6 +16,8 @@ function Upcoming(){
     return (
         <div>
         <div className="container containerCard">
+        <h2 className="text-center text-uppercase pt-4 text-light font-weight-normal">Upcoming Launches</h2>
+
             <div className="row">
               {
                   upcoming.map((launch,index) => {

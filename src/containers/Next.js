@@ -12,7 +12,11 @@ function Next(){
      } , [])
 
     return (
-      <CardOne launch={launches}/>
+        <div>
+        <h2 className="text-center text-uppercase pt-4 text-light font-weight-normal">Next Launches</h2>
+         <CardOne launch={launches}/>
+
+    </div>
     );
   }
   
