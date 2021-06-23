@@ -1,9 +1,12 @@
+import { Card } from "../components/Card";
 
 function Past(){
   
 
     return (
-      <div>Past</div>
+      <div>
+          <Card/>
+      </div>
     );
   }
   
