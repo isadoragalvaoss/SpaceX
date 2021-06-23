@@ -1,6 +1,6 @@
 export const CardOne = ({launch}) => (
     <div className="col-md-12 ">
-        <div className="card ">
+        <div className="card containerCard">
             <h1>{launch.name}</h1>
             <div className="row">
               
