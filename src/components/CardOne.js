@@ -4,7 +4,7 @@ export const CardOne = ({launch}) => (
             <h1>{launch.name}</h1>
             <div className="row">
               
-                <div className="col-6 ">
+                <div className="col-7 ">
 
                     <h6><b>{Date(launch.date_utc)}</b></h6>
                     <h6><b>{launch.details}</b></h6>
@@ -14,7 +14,7 @@ export const CardOne = ({launch}) => (
                     <a className="ml-5" href={launch.links?.wikipedia}>wikipedia </a>
 
                 </div>
-                <div className="col-6">
+                <div className="col-5">
                     <img className="card-img-top" src={launch.links?.patch?.small} alt=""/>
                 </div>
             </div>

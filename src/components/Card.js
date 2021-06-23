@@ -5,7 +5,7 @@ export const Card = ({launch}) => (
 
             <div className="row">
               
-            <div className="col-6 pl-4">
+            <div className="col-7 pl-4">
                 <h6 className="mt-3"><b>{Date(launch.date_utc)}</b></h6>
                 <h6><b>{launch.details}</b></h6>
                 <h6><b>{launch.success ? `Was successful`:`Was not successful`}</b></h6>
@@ -14,7 +14,7 @@ export const Card = ({launch}) => (
                 <a href={launch.links?.webcast} >youtube</a> 
                 <a className="ml-1" href={launch.links?.wikipedia}>wikipedia </a>
             </div>
-            <div className="col-6">
+            <div className="col-5">
         <img className="card-img-top" src={launch.links?.patch?.small} alt=""/>
             </div>
         </div>
