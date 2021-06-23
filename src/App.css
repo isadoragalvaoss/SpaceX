@@ -8,3 +8,25 @@ body{
 #logo img{
   width: 200px;
 }
+
+#navbarNavAltMarkup{
+  padding-top: 5px;
+  padding-left: 20px;
+  color: white;
+}
+
+.navbar-nav{
+  padding-top: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0%;
+}
+
+nav a{
+  color: white;
+}
+nav a:hover{
+  color: white;
+  text-decoration: none;
+}
