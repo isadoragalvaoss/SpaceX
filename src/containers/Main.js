@@ -1,9 +1,12 @@
+import { MainCmp } from '../components/Main';
 
 function Main(){
   
 
   return (
-    <div>Main</div>
+    <div>
+        <MainCmp />
+    </div>
   );
 }
 
