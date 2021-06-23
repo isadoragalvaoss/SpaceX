@@ -1,6 +1,6 @@
 export const MainCmp = ({launch}) => (
 
-    <div>
+    <div className="Main">
             <div className="col-md-8">
               <h1>TO MARS AND BEYOND</h1>
               <h6>{launch.summary}</h6>
