@@ -6,10 +6,10 @@ export const CardOne = ({launch}) => (
               
                 <div className="col-6 ">
 
-                    <h6>{Date(launch.date_utc)}</h6>
-                    <h6>{launch.details}</h6>
-                    <h6>{launch.success ? `Was successful`:`Was not successful`}</h6>
-                    <h6>See more:</h6>
+                    <h6><b>{Date(launch.date_utc)}</b></h6>
+                    <h6><b>{launch.details}</b></h6>
+                    <h6><b>{launch.success ? `Was successful`:`Was not successful`}</b></h6>
+                    <h6><b>See more:</b></h6>
                     <a href={launch.links?.webcast}>youtube</a> 
                     <a className="ml-5" href={launch.links?.wikipedia}>wikipedia </a>
 
