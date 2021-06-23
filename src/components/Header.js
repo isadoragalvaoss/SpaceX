@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import logo from "../imgs/logo.png"
 
 export const Header = ({lauch}) => (
-    <nav className="navbar navbar-expand-lg ">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
     <Link to="/" className="navbar-brand" id="logo"><img src={logo} alt=""/></Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
