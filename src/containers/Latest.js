@@ -1,9 +1,10 @@
+import { CardOne } from "../components/CardOne";
 
 function Latest(){
   
 
     return (
-      <div>Latest</div>
+      <CardOne/>
     );
   }
   
