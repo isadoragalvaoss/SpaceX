@@ -1,6 +1,9 @@
 body{
   background-color: black;
   font-family:"Montserrat", sans-serif;
+  background-image: url('./imgs/fundo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .App {
@@ -86,4 +89,21 @@ h6{
 
 h2{
   border-bottom: solid 1px;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background-position-x: center;
+    background-position-y: top;
+  
+  }
+
+  h1{
+    font-size: 60px;
+    padding-top: 10%;
+  }
+
+  .botao{
+    width: 100%;
+  }
 }
