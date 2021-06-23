@@ -14,6 +14,8 @@ function All(){
     return (
         <div>
         <div className="container containerCard">
+        <h2 className="text-center text-uppercase pt-4 text-light font-weight-normal">All Launches</h2>
+
             <div className="row">
               {
                   latestLaunches.map((launch,index) => {
