@@ -1,9 +1,12 @@
+import { Card } from "../components/Card";
 
 function Upcoming(){
   
 
     return (
-      <div>Upcoming</div>
+      <div>
+          <Card/>
+      </div>
     );
   }
   

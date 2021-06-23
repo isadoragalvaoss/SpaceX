@@ -1,9 +1,12 @@
+import { Card } from "../components/Card";
 
 function All(){
   
 
     return (
-      <div>All</div>
+      <div>
+          <Card/>
+      </div>
     );
   }
   
